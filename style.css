@@ -1,0 +1,82 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkorange;
+    padding: 10px;
+    margin: 0px;
+}
+
+.recipes {
+    background-color: rgb(230, 230, 169);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.recipe1.border1 {
+    margin: 20px 5px;
+    border-style: ridge;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color:rgb(126, 235, 23);
+
+    
+}
+
+.recipe2 {
+    margin: 20px -5px;
+    border-style: dashed;
+    padding: 20px 40px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-radius: 10px;
+    border-color: darkslateblue;
+    color:rgb(226, 11, 83);
+
+
+}
+
+.recipe3.border1 {
+    margin: 20px 5px;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+.button {
+    background-color: #03a2ec;
+    display: inline;
+
+}
+
+.border1 {
+    border-color: green;
+}
+
+.food {
+    width: 190px;
+    height: 190px;
+    border-style: solid;
+    margin: 2px;
+    
+}
+
+.carbonara {
+    margin-left: 643px;
+}
+
+#food {
+    margin-left: auto;
+    margin-right: auto;
+}
+

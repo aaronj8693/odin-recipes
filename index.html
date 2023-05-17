@@ -3,15 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <title>Recipes!</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
         
         <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="recipes/carbonara.html">Spaghetti Carbonara</a></li>
-            <li><a href="recipes/shepards-pie.html">Shepard's Pie</a></li>
-            <li><a href="recipes/chicken-tikka.html">Chicken Tikka Masala</a></li>
-        </ul>
+        <div class="recipes">
+            <a class="recipe1 button border1" href="recipes/carbonara.html">Spaghetti Carbonara</a>
+            <a class="recipe2 button border2" href="recipes/shepards-pie.html">Shepard's Pie</a>
+            <a class="recipe3 button border1" href="recipes/chicken-tikka.html">Chicken Tikka Masala</a>
+        </div>
+        <div id="food"></div>
+            <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?quality=90&resize=440,400" class="carbonara food" alt="carbonara.jpg">
+            <img src="https://www.thewholesomedish.com/wp-content/uploads/2019/02/The-Best-Classic-Shepherds-Pie-550.jpg" class="shepards food" alt="shepardspie.jpg">
+            <img src="https://amandascookin.com/wp-content/uploads/2023/01/Chicken-Tikka-Masala-RCSQ.jpg" class="tikka food" alt="chickentikka.jpg">
+        </div>
     </body>
 </html>
